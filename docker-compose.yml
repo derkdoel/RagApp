@@ -1,0 +1,10 @@
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./streamlit_chroma_db:/app/streamlit_chroma_db
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    restart: unless-stopped
