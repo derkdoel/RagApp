@@ -1,5 +1,3 @@
-#pdf_handler.py
-
 import pymupdf4llm
 import os
 import logging

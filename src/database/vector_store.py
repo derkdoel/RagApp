@@ -1,5 +1,3 @@
-#vector_store.py
-
 import os
 import chromadb
 from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
