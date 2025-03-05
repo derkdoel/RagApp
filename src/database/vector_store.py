@@ -9,7 +9,7 @@ import datetime
 
 class VectorDatabase:
     def __init__(self, collection_name="default_collection", 
-                 embedding_model="text-embedding-ada-002", persist_directory="./chroma_db"):
+                 embedding_model="text-embedding-3-small", persist_directory="./chroma_db"):
         """
         Initialize a vector database for single PDF storage and retrieval.
         
